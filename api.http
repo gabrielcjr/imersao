@@ -1,4 +1,14 @@
-GET http://localhost:3000/test
+GET http://localhost:3000/routes/1
 
 ###
 GET http://localhost:3000/routes
+
+###
+POST http://localhost:3000/routes
+Content-Type: application/json
+
+{
+    "name": "Rota 1",
+    "source_id": "1",
+    "destination_id": "2"
+}
